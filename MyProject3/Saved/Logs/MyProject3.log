@@ -1040,3 +1040,158 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.03.13-21.15.40:697][597]LogStaticMesh: Num clusters 2. Error 662.8256, 662.8256, 662.8256
 [2022.03.13-21.15.40:700][597]LogStaticMesh: Num clusters 1. Error 662.8256, 662.8256, 662.8256
 [2022.03.13-21.15.40:700][597]LogStaticMesh: Reduce [17.50s]
+[2022.03.13-21.16.07:627][597]LogStaticMesh: Fallback 0/1 [26.93s], num tris: 207866
+[2022.03.13-21.16.07:941][597]LogStaticMesh: ConstrainClusters:
+[2022.03.13-21.16.07:941][597]LogStaticMesh:   Input: 5330 Clusters, 670764 Triangles and 1055483 Vertices
+[2022.03.13-21.16.07:941][597]LogStaticMesh:   Output without splits: 5330 Clusters, 670764 Triangles and 1055489 Vertices
+[2022.03.13-21.16.07:941][597]LogStaticMesh:   Output with splits: 5331 Clusters, 670764 Triangles and 1055489 Vertices
+[2022.03.13-21.16.07:948][597]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 5331, Slow Path Clusters: 0, 1 Material: 5331, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2022.03.13-21.16.08:125][597]LogStaticMesh: WritePages:
+[2022.03.13-21.16.08:125][597]LogStaticMesh:   Root: GPU size: 32660 bytes. 1 Pages. 32660.000 bytes per page (99.670% utilization).
+[2022.03.13-21.16.08:125][597]LogStaticMesh:   Streaming: GPU size: 8879144 bytes. 69 Pages. 128683.250 bytes per page (98.178% utilization).
+[2022.03.13-21.16.08:125][597]LogStaticMesh:   Page data disk size: 7556652 bytes. Fixup data size: 35240 bytes.
+[2022.03.13-21.16.08:125][597]LogStaticMesh:   Total GPU size: 8911804 bytes, Total disk size: 7591892 bytes.
+[2022.03.13-21.16.08:127][597]LogStaticMesh: Encode [0.50s]
+[2022.03.13-21.16.08:127][597]LogStaticMesh: Imposter [0.00s]
+[2022.03.13-21.16.08:127][597]LogStaticMesh: Nanite build [44.93s]
+
+[2022.03.13-21.16.08:608][597]LogStaticMesh: Built static mesh [47.79s] /Game/LevelPrototyping/HERBS/treeBlue.treeBlue
+[2022.03.13-21.16.09:377][597]LogStaticMesh: Warning: treeBlue has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.03.13-21.16.09:378][597]LogStaticMesh: Warning: treeBlue has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.13-21.16.10:206][597]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.13-21.16.10:206][597]FBXImport: Warning: treeBlue has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.03.13-21.16.10:206][597]FBXImport: Warning: treeBlue has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.13-21.16.12:877][597]LogMeshUtilities: Finished distance field build in 4.2s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 53% occupied, 109153 triangles, treeBlue
+[2022.03.13-21.16.12:906][597]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LevelPrototyping/HERBS/treeBlue) ...
+[2022.03.13-21.16.13:421][597]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Hyboot/Desktop/VXP/AssetsPacks/AssetsPackV1/FBX/treeGreen.fbx)
+[2022.03.13-21.16.13:440][597]LogFbx: Loading FBX Scene from C:/Users/Hyboot/Desktop/VXP/AssetsPacks/AssetsPackV1/FBX/treeGreen.fbx
+[2022.03.13-21.16.13:507][597]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.13-21.16.13:509][597]LogFbx: Display: Triangulating static mesh Herbs_assetfile-0
+[2022.03.13-21.16.19:582][597]LogMeshUtilities: Finished distance field build in 5.1s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 53% occupied, 109153 triangles, treeBlue
+[2022.03.13-21.16.20:310][597]LogStaticMesh: Display: Building static mesh treeGreen...
+[2022.03.13-21.16.21:320][597]LogStaticMesh: Adjacency [0.06s], tris: 176080, UVs 2
+[2022.03.13-21.16.21:518][597]LogStaticMesh: Clustering [0.20s]. Ratio: 1.016715
+[2022.03.13-21.16.21:529][597]LogStaticMesh: Leaves [0.01s]
+[2022.03.13-21.16.21:531][597]LogStaticMesh: Num clusters 1399. Error 0.0000, 0.0000, 0.0000
+[2022.03.13-21.16.24:293][597]LogStaticMesh: Num clusters 717. Error 0.0000, 17.3966, 23.3821
+[2022.03.13-21.16.26:653][597]LogStaticMesh: Num clusters 368. Error 17.1123, 58.6448, 168.1043
+[2022.03.13-21.16.29:266][597]LogStaticMesh: Num clusters 191. Error 85.6603, 210.6105, 496.6383
+[2022.03.13-21.16.30:465][597]LogStaticMesh: Num clusters 98. Error 154.6680, 393.0019, 606.3300
+[2022.03.13-21.16.30:953][597]LogStaticMesh: Num clusters 50. Error 496.6383, 536.4183, 606.3300
+[2022.03.13-21.16.31:216][597]LogStaticMesh: Num clusters 26. Error 496.6383, 564.1409, 606.3300
+[2022.03.13-21.16.31:351][597]LogStaticMesh: Num clusters 13. Error 606.3300, 606.3300, 606.3300
+[2022.03.13-21.16.31:409][597]LogStaticMesh: Num clusters 7. Error 606.3300, 606.3300, 606.3300
+[2022.03.13-21.16.31:425][597]LogStaticMesh: Num clusters 4. Error 606.3300, 606.3300, 606.3300
+[2022.03.13-21.16.31:433][597]LogStaticMesh: Num clusters 2. Error 606.3300, 606.3300, 606.3300
+[2022.03.13-21.16.31:437][597]LogStaticMesh: Num clusters 1. Error 606.3300, 606.3300, 606.3300
+[2022.03.13-21.16.31:437][597]LogStaticMesh: Reduce [9.91s]
+[2022.03.13-21.16.38:541][597]LogStaticMesh: Fallback 0/1 [7.10s], num tris: 140262
+[2022.03.13-21.16.38:694][597]LogStaticMesh: ConstrainClusters:
+[2022.03.13-21.16.38:694][597]LogStaticMesh:   Input: 2876 Clusters, 361941 Triangles and 571768 Vertices
+[2022.03.13-21.16.38:694][597]LogStaticMesh:   Output without splits: 2876 Clusters, 361941 Triangles and 571784 Vertices
+[2022.03.13-21.16.38:694][597]LogStaticMesh:   Output with splits: 2876 Clusters, 361941 Triangles and 571784 Vertices
+[2022.03.13-21.16.38:697][597]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 2876, Slow Path Clusters: 0, 1 Material: 2876, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2022.03.13-21.16.38:804][597]LogStaticMesh: WritePages:
+[2022.03.13-21.16.38:804][597]LogStaticMesh:   Root: GPU size: 31760 bytes. 1 Pages. 31760.000 bytes per page (96.924% utilization).
+[2022.03.13-21.16.38:804][597]LogStaticMesh:   Streaming: GPU size: 4787148 bytes. 37 Pages. 129382.375 bytes per page (98.711% utilization).
+[2022.03.13-21.16.38:804][597]LogStaticMesh:   Page data disk size: 4125676 bytes. Fixup data size: 18624 bytes.
+[2022.03.13-21.16.38:804][597]LogStaticMesh:   Total GPU size: 4818908 bytes, Total disk size: 4144300 bytes.
+[2022.03.13-21.16.38:805][597]LogStaticMesh: Encode [0.26s]
+[2022.03.13-21.16.38:805][597]LogStaticMesh: Imposter [0.00s]
+[2022.03.13-21.16.38:805][597]LogStaticMesh: Nanite build [17.27s]
+
+[2022.03.13-21.16.39:098][597]LogStaticMesh: Built static mesh [18.79s] /Game/LevelPrototyping/HERBS/treeGreen.treeGreen
+[2022.03.13-21.16.39:556][597]LogStaticMesh: Warning: treeGreen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.03.13-21.16.39:556][597]LogStaticMesh: Warning: treeGreen has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.13-21.16.40:055][597]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.13-21.16.40:055][597]FBXImport: Warning: treeGreen has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.03.13-21.16.40:055][597]FBXImport: Warning: treeGreen has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.13-21.16.41:541][597]LogMeshUtilities: Finished distance field build in 2.4s - 119x84x126 sparse distance field, 1.3Mb total, 0.0Mb always loaded, 56% occupied, 58693 triangles, treeGreen
+[2022.03.13-21.16.41:565][597]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LevelPrototyping/HERBS/treeGreen) ...
+[2022.03.13-21.16.41:890][597]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Hyboot/Desktop/VXP/AssetsPacks/AssetsPackV1/FBX/treeRed.fbx)
+[2022.03.13-21.16.41:910][597]LogFbx: Loading FBX Scene from C:/Users/Hyboot/Desktop/VXP/AssetsPacks/AssetsPackV1/FBX/treeRed.fbx
+[2022.03.13-21.16.42:018][597]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.13-21.16.42:021][597]LogFbx: Display: Triangulating static mesh Herbs_assetfile-1
+[2022.03.13-21.16.48:800][597]LogMeshUtilities: Finished distance field build in 2.7s - 119x84x126 sparse distance field, 1.3Mb total, 0.0Mb always loaded, 56% occupied, 58693 triangles, treeGreen
+[2022.03.13-21.16.49:968][597]LogStaticMesh: Display: Building static mesh treeRed...
+[2022.03.13-21.16.51:738][597]LogStaticMesh: Adjacency [0.11s], tris: 287792, UVs 2
+[2022.03.13-21.16.52:100][597]LogStaticMesh: Clustering [0.36s]. Ratio: 1.017786
+[2022.03.13-21.16.52:117][597]LogStaticMesh: Leaves [0.02s]
+[2022.03.13-21.16.52:121][597]LogStaticMesh: Num clusters 2289. Error 0.0000, 0.0000, 0.0000
+[2022.03.13-21.16.55:823][597]LogStaticMesh: Num clusters 1167. Error 0.0000, 15.8430, 25.9604
+[2022.03.13-21.16.58:824][597]LogStaticMesh: Num clusters 599. Error 12.3938, 36.5753, 130.3632
+[2022.03.13-21.17.01:476][597]LogStaticMesh: Num clusters 307. Error 35.3052, 126.0996, 291.0380
+[2022.03.13-21.17.03:251][597]LogStaticMesh: Num clusters 155. Error 125.7730, 310.0096, 585.3120
+[2022.03.13-21.17.04:069][597]LogStaticMesh: Num clusters 79. Error 264.0405, 468.2297, 585.3120
+[2022.03.13-21.17.04:531][597]LogStaticMesh: Num clusters 40. Error 389.3177, 531.3641, 585.3120
+[2022.03.13-21.17.04:756][597]LogStaticMesh: Num clusters 20. Error 575.4133, 580.3625, 585.3120
+[2022.03.13-21.17.04:893][597]LogStaticMesh: Num clusters 10. Error 585.3120, 585.3120, 585.3120
+[2022.03.13-21.17.04:921][597]LogStaticMesh: Num clusters 5. Error 585.3120, 585.3120, 585.3120
+[2022.03.13-21.17.04:934][597]LogStaticMesh: Num clusters 3. Error 585.3120, 585.3120, 585.3120
+[2022.03.13-21.17.04:939][597]LogStaticMesh: Num clusters 2. Error 585.3120, 585.3120, 585.3120
+[2022.03.13-21.17.04:943][597]LogStaticMesh: Num clusters 1. Error 585.3120, 585.3120, 585.3120
+[2022.03.13-21.17.04:943][597]LogStaticMesh: Reduce [12.82s]
+[2022.03.13-21.17.22:359][597]LogStaticMesh: Fallback 0/1 [17.42s], num tris: 190298
+[2022.03.13-21.17.22:612][597]LogStaticMesh: ConstrainClusters:
+[2022.03.13-21.17.22:612][597]LogStaticMesh:   Input: 4677 Clusters, 588330 Triangles and 946281 Vertices
+[2022.03.13-21.17.22:612][597]LogStaticMesh:   Output without splits: 4677 Clusters, 588330 Triangles and 946291 Vertices
+[2022.03.13-21.17.22:612][597]LogStaticMesh:   Output with splits: 4686 Clusters, 588330 Triangles and 946298 Vertices
+[2022.03.13-21.17.22:617][597]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 4686, Slow Path Clusters: 0, 1 Material: 4686, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2022.03.13-21.17.22:787][597]LogStaticMesh: WritePages:
+[2022.03.13-21.17.22:787][597]LogStaticMesh:   Root: GPU size: 32428 bytes. 1 Pages. 32428.000 bytes per page (98.962% utilization).
+[2022.03.13-21.17.22:787][597]LogStaticMesh:   Streaming: GPU size: 7919228 bytes. 61 Pages. 129823.406 bytes per page (99.047% utilization).
+[2022.03.13-21.17.22:787][597]LogStaticMesh:   Page data disk size: 6790172 bytes. Fixup data size: 30816 bytes.
+[2022.03.13-21.17.22:787][597]LogStaticMesh:   Total GPU size: 7951656 bytes, Total disk size: 6820988 bytes.
+[2022.03.13-21.17.22:789][597]LogStaticMesh: Encode [0.43s]
+[2022.03.13-21.17.22:789][597]LogStaticMesh: Imposter [0.00s]
+[2022.03.13-21.17.22:789][597]LogStaticMesh: Nanite build [30.67s]
+
+[2022.03.13-21.17.23:201][597]LogStaticMesh: Built static mesh [33.23s] /Game/LevelPrototyping/HERBS/treeRed.treeRed
+[2022.03.13-21.17.23:855][597]LogStaticMesh: Warning: treeRed has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2022.03.13-21.17.23:855][597]LogStaticMesh: Warning: treeRed has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.03.13-21.17.24:554][597]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.13-21.17.24:554][597]FBXImport: Warning: treeRed has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2022.03.13-21.17.24:554][597]FBXImport: Warning: treeRed has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.03.13-21.17.27:175][597]LogMeshUtilities: Finished distance field build in 4.0s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 56% occupied, 95930 triangles, treeRed
+[2022.03.13-21.17.27:203][597]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LevelPrototyping/HERBS/treeRed) ...
+[2022.03.13-21.17.32:029][724]LogMeshUtilities: Finished distance field build in 4.4s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 56% occupied, 95930 triangles, treeRed
+[2022.03.13-21.17.32:560][755]LogSlate: Window 'Message Log' being destroyed
+[2022.03.13-21.17.32:568][755]LogSlate: Window 'Message Log' being destroyed
+[2022.03.13-21.17.34:772][855]LogSlate: Took 0.001978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.03.13-21.17.43:238][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelPrototyping/HERBS/treeBlue" FILE="C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Content/LevelPrototyping/HERBS/treeBlue.uasset" SILENT=true
+[2022.03.13-21.17.43:575][322]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/HERBS/treeBlue
+[2022.03.13-21.17.43:575][322]LogSavePackage: Moving 'C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Saved/treeBlueAAD97BA5407BBD40BCE643888BB5D0D8.tmp' to 'C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Content/LevelPrototyping/HERBS/treeBlue.uasset'
+[2022.03.13-21.17.43:636][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelPrototyping/HERBS/treeGreen" FILE="C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Content/LevelPrototyping/HERBS/treeGreen.uasset" SILENT=true
+[2022.03.13-21.17.43:798][322]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/HERBS/treeGreen
+[2022.03.13-21.17.43:798][322]LogSavePackage: Moving 'C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Saved/treeGreen1AB60B234BDC453D961C5BB8B4D57E63.tmp' to 'C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Content/LevelPrototyping/HERBS/treeGreen.uasset'
+[2022.03.13-21.17.43:869][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelPrototyping/HERBS/treeRed" FILE="C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Content/LevelPrototyping/HERBS/treeRed.uasset" SILENT=true
+[2022.03.13-21.17.44:154][322]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/HERBS/treeRed
+[2022.03.13-21.17.44:154][322]LogSavePackage: Moving 'C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Saved/treeRed61FAF7AD46C4AC18C78FB098B977C47C.tmp' to 'C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Content/LevelPrototyping/HERBS/treeRed.uasset'
+[2022.03.13-21.17.44:167][322]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.13-21.17.44:167][322]LogContentValidation: Display: Validating StaticMesh /Game/LevelPrototyping/HERBS/treeBlue.treeBlue
+[2022.03.13-21.17.44:167][322]LogContentValidation: Display: Validating StaticMesh /Game/LevelPrototyping/HERBS/treeGreen.treeGreen
+[2022.03.13-21.17.44:167][322]LogContentValidation: Display: Validating StaticMesh /Game/LevelPrototyping/HERBS/treeRed.treeRed
+[2022.03.13-21.17.46:898][468]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeRed.treeRed
+[2022.03.13-21.17.46:898][468]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeRed.treeRed
+[2022.03.13-21.17.46:899][468]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/HERBS/treeRed.treeRed as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_17
+[2022.03.13-21.17.47:899][505]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeRed.treeRed
+[2022.03.13-21.17.47:899][505]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeRed.treeRed
+[2022.03.13-21.17.47:900][505]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/HERBS/treeRed.treeRed as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_26
+[2022.03.13-21.17.50:241][612]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeGreen.treeGreen
+[2022.03.13-21.17.50:241][612]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeGreen.treeGreen
+[2022.03.13-21.17.50:242][612]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/HERBS/treeGreen.treeGreen as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_27
+[2022.03.13-21.17.50:879][641]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeGreen.treeGreen
+[2022.03.13-21.17.50:879][641]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeGreen.treeGreen
+[2022.03.13-21.17.50:880][641]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/HERBS/treeGreen.treeGreen as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_28
+[2022.03.13-21.17.52:514][730]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeBlue.treeBlue
+[2022.03.13-21.17.52:514][730]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeBlue.treeBlue
+[2022.03.13-21.17.52:514][730]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/HERBS/treeBlue.treeBlue as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_29
+[2022.03.13-21.17.53:220][772]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeBlue.treeBlue
+[2022.03.13-21.17.53:220][772]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LevelPrototyping/HERBS/treeBlue.treeBlue
+[2022.03.13-21.17.53:220][772]LogActorFactory: Actor Factory spawned StaticMesh /Game/LevelPrototyping/HERBS/treeBlue.treeBlue as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_30
+[2022.03.13-21.17.55:189][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.03.13-21.17.55:207][882]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2022.03.13-21.17.55:208][882]LogSavePackage: Moving 'C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Saved/ThirdPersonMap5D40FFD244961FDBAD874B9F05F6AB72.tmp' to 'C:/Users/Hyboot/Documents/Unreal Projects/Herbs_Project/MyProject3/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2022.03.13-21.17.55:217][882]LogFileHelpers: No new changes to save!
+[2022.03.13-21.17.55:228][882]AssetCheck: New page: Asset Save: ThirdPersonMap
+[2022.03.13-21.17.55:228][882]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
